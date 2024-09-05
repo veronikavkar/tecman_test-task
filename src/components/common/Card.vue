@@ -82,4 +82,10 @@ export default {
   font-weight: bold;
   color: #000;
 }
+@media screen and (max-width: 480px) {
+  .card {
+    height: 70px;
+    width: auto;
+  }
+}
 </style>

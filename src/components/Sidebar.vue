@@ -84,4 +84,12 @@ export default {
 .list-item:last-child {
   margin-top: auto;
 }
+@media screen and (max-width: 470px) {
+  .sidebar {
+    width: 50px;
+  }
+  .list-icon {
+    width: 20px;
+  }
+}
 </style>

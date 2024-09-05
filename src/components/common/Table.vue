@@ -107,6 +107,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
+  flex-wrap: wrap;
 }
 .filters {
   display: flex;
@@ -147,5 +148,34 @@ td:first-child {
   text-align: center;
   vertical-align: middle;
   padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .filters {
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .table-container {
+    padding: 16px 10px;
+  }
+  th,
+  td {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  table {
+    width: auto;
+  }
+}
+@media screen and (max-width: 424px) {
+  th:first-child,
+  td:first-child {
+    display: none;
+  }
 }
 </style>

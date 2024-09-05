@@ -108,4 +108,32 @@ export default {
 .custom-checkbox input[type="checkbox"]:indeterminate + .checkmark:after {
   display: none;
 }
+
+@media screen and (max-width: 590px) {
+  .custom-checkbox .checkmark {
+    height: 14px;
+    width: 14px;
+  }
+  .custom-checkbox .checkmark:after {
+    left: 4px;
+    top: -1px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .custom-checkbox .checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 4px;
+    height: 7px;
+  }
+  .custom-checkbox .checkmark {
+    height: 12px;
+    width: 12px;
+  }
+  @media screen and (max-width: 424px) {
+    .custom-checkbox .checkmark {
+      display: none;
+    }
+  }
+}
 </style>

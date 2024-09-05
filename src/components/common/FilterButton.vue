@@ -64,4 +64,12 @@ span {
   border-radius: 50%;
   margin-left: 5px;
 }
+@media screen and (max-width: 590px) {
+  img {
+    width: 15px;
+  }
+  span {
+    font-size: 14px;
+  }
+}
 </style>

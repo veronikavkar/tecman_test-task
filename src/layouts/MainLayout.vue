@@ -35,4 +35,18 @@ export default {
   flex-direction: column;
   gap: 12px;
 }
+@media screen and (max-width: 590px) {
+  .main-layout {
+    margin: 16px 10px;
+  }
+  .content {
+    width: 100%;
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .content {
+    margin-left: 50px;
+  }
+}
 </style>

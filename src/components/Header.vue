@@ -61,4 +61,9 @@ export default {
 .devices-card {
   background-color: #e8ecf5;
 }
+@media screen and (max-width: 480px) {
+  .cards-container {
+    flex-direction: column;
+  }
+}
 </style>

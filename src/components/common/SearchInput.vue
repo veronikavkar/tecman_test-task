@@ -50,4 +50,12 @@ img {
   cursor: pointer;
   width: 17px;
 }
+@media screen and (max-width: 590px) {
+  img {
+    width: 16px;
+  }
+  input {
+    font-size: 14px;
+  }
+}
 </style>
